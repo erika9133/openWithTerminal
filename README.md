@@ -8,10 +8,9 @@ First started will auto-generate the config.json template with some entries.
 
 ## Installation
 
-Download, place folder when you like, and run. They will auto-generate config.json so you can close and edit as you need it for the next start.
+[Download](https://drive.google.com/drive/folders/1vf_C6PndrPF0NcKcvoDA3Ob8UkpoG74Q?usp=sharing), place folder when you like, and run. They will auto-generate config.json so you can close and edit as you need it for the next start. If you prefer you can donwload source and build in visual studio (Newtonsoft.Json nuget is required).
 
 If you want map .exe to your keyboard you can download an external keyboard utility.
-
 
 ## Config explanation
 
