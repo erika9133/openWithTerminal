@@ -20,7 +20,7 @@ If you want map .exe to your keyboard you can download an external keyboard util
 ```
 * Import class in new visual studio project
 * Import Newtonsoft nuget
-* Publish or build with single file (not recomended because of size)
+* Publish or build in a single file with command below (not recomended because of the size)
 
 ```bash
 dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
