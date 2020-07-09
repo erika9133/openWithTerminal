@@ -9,12 +9,12 @@ namespace openWithTerminal
     public class ConfigElement
     {
         public string Route;
-        public string Description;
     }
 
     public class ConfigElementMapped : ConfigElement
     {
         public string Key;
+        public string Description;
     }
 
     public class ConfigFile
@@ -37,7 +37,7 @@ namespace openWithTerminal
 
             ConfigFile fileLoaded = JsonConvert.DeserializeObject<ConfigFile>(File.ReadAllText(filepath));
 
-            Console.WriteLine("Quick Menu - Press a key from the list to open a program. ESC to exit");
+            Console.WriteLine("OpenWithTerminal - Press a key from the list to open a program. ESC to exit");
 
             GenerateOptions(fileLoaded);
 
@@ -120,7 +120,7 @@ namespace openWithTerminal
                     new ConfigElementMapped() {Key = "3", Route = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe", Description = "Chrome"},
                     new ConfigElementMapped() {Key = "4", Route = "%UserProfile%\\fastnotes.txt", Description = "Fast Notes (create a new file if doesn't exist)"}
                 },
-                Default = new ConfigElement() { Route = "explorer.exe", Description = "Windows explorer" },
+                Default = new ConfigElement() { Route = "explorer.exe"},
                 CreateFileIfNotExist = true
             };
 
