@@ -12,6 +12,20 @@ First started will auto-generate the config.json template with some entries.
 
 If you want map .exe to your keyboard you can download an external keyboard utility.
 
+## Build yourself
+* Clone repository or donwload Program.cs (only file you need it)
+
+```bash
+ git clone https://github.com/erika9133/openWithTerminal
+```
+* Import class in new visual studio project
+* Import Newtonsoft nuget
+* Build with single file flag
+
+```bash
+dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
+```
+
 ## Config explanation
 
 ```json
