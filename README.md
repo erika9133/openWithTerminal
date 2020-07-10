@@ -76,14 +76,22 @@ The parameter CreateFileIfNotExist will create the file if it doesn't be an .exe
 ## Keys supported
 * Numbers 0-9
 * F keys (F1-F12)
-* Vocal and letter keys.
-* Some symbols 
-
-
+* Letters A-Z.
+* Symbols don't work for now
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+## Next steps...
+I would like to fork into a system tray application.
+
+## My custom keyboard app doesn't run cmd apps
+In this case, you can create a macro (example below) to start "Windows run" (Win + R). I recommend renaming the folder and the .exe file to a simple letter like "o" and putting it directly in the root folder (usually "C:").
+
+Remember to include a delay (100MS should be fine) next to open "Windows Run" to let some time to system to open windows run application.
+
+<img src="https://github.com/erika9133/openWithTerminal/blob/master/gitResources/macro1.png" width="300">
+<img src="https://github.com/erika9133/openWithTerminal/blob/master/gitResources/macro2.png" width="300">
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
