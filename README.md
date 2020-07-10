@@ -8,7 +8,7 @@ First started will auto-generate the config.json template with some entries.
 
 ## Installation
 
-[Download](https://drive.google.com/drive/folders/1vf_C6PndrPF0NcKcvoDA3Ob8UkpoG74Q?usp=sharing), place folder when you like, and run. They will auto-generate config.json so you can close and edit as you need it for the next start. If you prefer you can donwload source and build in visual studio (Newtonsoft.Json nuget is required).
+Download (or clone), place folder where you like, open executable folder and run openWithTerminal.exe. They will auto-generate config.json so you can close and edit as you need it for the next start. If you prefer you can donwload source and build in visual studio (Newtonsoft.Json nuget is required).
 
 If you want map .exe to your keyboard you can download an external keyboard utility.
 
@@ -20,10 +20,10 @@ If you want map .exe to your keyboard you can download an external keyboard util
 ```
 * Import class in new visual studio project
 * Import Newtonsoft nuget
-* Build with single file flag
+* Publish or build in a single file with command below (not recomended because of the size)
 
 ```bash
-dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true
+dotnet publish -r win-x64 -c Release /p:PublishSingleFile=true /p:PublishTrimmed=true
 ```
 
 ## Config explanation
