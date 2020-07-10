@@ -5,6 +5,10 @@ When is launched will prompt the config.json options and you just need to press 
 
 First started will auto-generate the config.json template with some entries.
 
+Example running:
+
+<img src="https://github.com/erika9133/openWithTerminal/blob/master/gitResources/programRunning.png" >
+
 
 ## Installation
 
